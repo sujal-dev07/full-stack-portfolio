@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sujal Parmar — Full Stack Developer — Collection Industries</title>
+  <meta name="description"
+    content="Sujal Parmar is a Full Stack Developer. A stark editorial portfolio built with Collection Industries design system.">
+  <meta property="og:title" content="Sujal Parmar — Full Stack Developer">
+  <meta property="og:description"
+    content="A stark editorial portfolio with vast whitespace, black-on-white contrast, and fashion-house restraint.">
+  <meta property="og:type" content="website">
+
+  <!-- Typography: High-fashion editorial grotesque sans with system fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ========== NAVIGATION (Collection Industries Minimal Bar) ========== -->
+  <header class="header">
+    <nav class="nav" id="navbar" aria-label="Main navigation">
+      <div class="nav-left">
+        <a href="#" class="brand-link" aria-label="Sujal Parmar">
+          <span class="brand-title">SUJAL PARMAR</span>
+
+        </a>
+      </div>
+
+      <div class="nav-center">
+        <ul class="nav-menu" role="list">
+          <li><a href="#work" class="nav-link">Selected Work</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <a href="mailto:sujaldev090@gmail.com" class="button-secondary nav-action-btn hide-mobile">Inquire</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="mobileDrawer">
+          <span class="toggle-line"></span>
+          <span class="toggle-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="drawer-container">
+        <ul class="drawer-menu" role="list">
+          <li><a href="#work" class="drawer-link">01 &nbsp; Selected Work</a></li>
+          <li><a href="#experience" class="drawer-link">02 &nbsp; Experience</a></li>
+          <li><a href="#capabilities" class="drawer-link">03 &nbsp; Capabilities</a></li>
+          <li><a href="#about" class="drawer-link">04 &nbsp; About</a></li>
+          <li><a href="#contact" class="drawer-link">05 &nbsp; Contact</a></li>
+        </ul>
+        <div class="drawer-meta">
+          <span class="label-sm">DIRECT TRANSMISSION</span>
+          <a href="mailto:sujaldev090@gmail.com" class="drawer-email">sujaldev090@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ========== HERO (Vast Whitespace & Stark Contrast) ========== -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-meta-row">
+          <span class="meta-tag">FULL STACK DEVELOPER</span>
+          <span class="meta-tag">MERN · LARAVEL · PYTHON</span>
+
+        </div>
+
+        <div class="hero-title-box">
+          <h1 class="headline-display" id="hero-title">
+            SUJAL<br>PARMAR
+          </h1>
+        </div>
+
+        <div class="hero-footer-grid">
+          <div class="hero-editorial-copy">
+            <p class="body-lg">
+              A disciplined full-stack developer developing high-contrast, robust digital products from relational
+              schemas to responsive user interfaces.
+            </p>
+          </div>
+
+          <div class="hero-action-column">
+            <div class="hero-buttons">
+              <a href="#work" class="button-primary">View Collection</a>
+              <a href="#contact" class="button-secondary">Initiate Contact</a>
+            </div>
+            <div class="hero-stats-row">
+              <div class="stat-unit">
+                <span class="stat-num">~30%</span>
+                <span class="label-sm">QUERY OPTIMIZATION</span>
+              </div>
+              <div class="stat-unit">
+                <span class="stat-num">3-TIER</span>
+                <span class="label-sm">RBAC ARCHITECTURE</span>
+              </div>
+              <div class="stat-unit">
+                <span class="stat-num">0.00</span>
+                <span class="label-sm">RAZORPAY ERROR RATE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stark-divider"></div>
+
+    <!-- ========== SELECTED WORK SECTION ========== -->
+    <section class="section-spacing" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-num">01 / 05</span>
+          <h2 class="headline-md" id="work-title">Selected Projects</h2>
+          <p class="body-md text-secondary">
+            Three documented production systems spanning enterprise corporate commerce, authenticated ordering
+            platforms, and local generative intelligence.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 01: L'Arôme Café -->
+          <article class="project-entry" aria-labelledby="p1-heading">
+            <div class="project-meta-top">
+              <span class="label-md">PROJECT 01</span>
+              <span class="label-md">MERN ARCHITECTURE</span>
+            </div>
+            <div class="project-headline-wrap">
+              <h3 class="headline-sm" id="p1-heading">L’Arôme Café — Menu &amp; Order Management System</h3>
+            </div>
+            <p class="body-md">
+              Full-stack MERN application for online menu curation, customized customer carts, and administrative order
+              handling. Features secure guest checkout, JWT authentication, and administrative controls.
+            </p>
+            <div class="project-specs">
+              <div class="spec-row">
+                <span class="spec-label label-sm">STACK</span>
+                <span class="spec-value body-sm">React.js, Node.js, Express.js, MongoDB, JWT, Swagger</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label label-sm">DELIVERY</span>
+                <span class="spec-value body-sm">Vercel (Client), Render (API Microservice)</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label label-sm">ENGINEERING</span>
+                <span class="spec-value body-sm">Documented RESTful endpoints via Swagger, indexed Mongo
+                  collections</span>
+              </div>
+            </div>
+            <div class="project-cta-group">
+              <a href="https://larome-frontend.vercel.app/" target="_blank" rel="noopener noreferrer"
+                class="button-primary">Live Platform</a>
+              <a href="https://github.com/sujal-dev07/Larome-cafe" target="_blank" rel="noopener noreferrer"
+                class="button-secondary">Source Repository</a>
+            </div>
+          </article>
+
+          <!-- Project 02: Hog Tie -->
+          <article class="project-entry" aria-labelledby="p2-heading">
+            <div class="project-meta-top">
+              <span class="label-md">PROJECT 02</span>
+              <span class="label-md">LARAVEL &amp; REACT</span>
+            </div>
+            <div class="project-headline-wrap">
+              <h3 class="headline-sm" id="p2-heading">Hog Tie — Corporate Gifting E-Commerce Platform</h3>
+            </div>
+            <p class="body-md">
+              Enterprise gifting platform built with Laravel, React.js, and MySQL. Features dynamic catalog management,
+              corporate gift allocation, cart workflows, and multi-tier role-based administrative dashboards.
+            </p>
+            <div class="project-specs">
+              <div class="spec-row">
+                <span class="spec-label label-sm">STACK</span>
+                <span class="spec-value body-sm">Laravel, PHP, MySQL, React.js, JavaScript, Razorpay</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label label-sm">PAYMENT</span>
+                <span class="spec-value body-sm">Integrated Razorpay gateway with transactional validation</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label label-sm">SECURITY</span>
+                <span class="spec-value body-sm">Role-based access control (RBAC) across administrative tiers</span>
+              </div>
+            </div>
+            <div class="project-cta-group">
+              <a href="https://github.com/sujal-dev07/hog-tie" target="_blank" rel="noopener noreferrer"
+                class="button-primary">Source Repository</a>
+            </div>
+          </article>
+
+          <!-- Project 03: AI Image Generator -->
+          <article class="project-entry" aria-labelledby="p3-heading">
+            <div class="project-meta-top">
+              <span class="label-md">PROJECT 03</span>
+              <span class="label-md">PYTHON &amp; COMFYUI</span>
+            </div>
+            <div class="project-headline-wrap">
+              <h3 class="headline-sm" id="p3-heading">AI Image Generator &amp; Editor</h3>
+            </div>
+            <p class="body-md">
+              Desktop local AI generation and editing suite utilizing Python, Gradio, and customized ComfyUI execution
+              pipelines. Delivers prompt-to-image synthesis, multi-image reference handling, and identity-preserving
+              workflows.
+            </p>
+            <div class="project-specs">
+              <div class="spec-row">
+                <span class="spec-label label-sm">MODELS</span>
+                <span class="spec-value body-sm">FLUX Kontext, FLUX Redux, ComfyUI backend pipelines</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label label-sm">INTERFACE</span>
+                <span class="spec-value body-sm">Python, Gradio desktop UI, scalable provider architecture</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-label label-sm">EXECUTION</span>
+                <span class="spec-value body-sm">Optimized local GPU pipelines for zero-cloud latency inference</span>
+              </div>
+            </div>
+            <div class="project-cta-group">
+              <a href="https://github.com/sujal-dev07/AI-Image-Generator-Editor-.git" target="_blank"
+                rel="noopener noreferrer" class="button-primary">Source Repository</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="stark-divider"></div>
+
+    <!-- ========== PROFESSIONAL EXPERIENCE SECTION ========== -->
+    <section class="section-spacing" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-num">02 / 05</span>
+          <h2 class="headline-md" id="exp-title">Experience</h2>
+          <p class="body-md text-secondary">
+            Verified engineering tenure focused on full-stack application development, payment gateway integration, and
+            relational query tuning.
+          </p>
+        </div>
+
+        <div class="experience-block">
+          <div class="exp-sidebar">
+            <span class="label-lg">DEC 2025 – APR 2026</span>
+            <span class="label-sm text-secondary">INTERNSHIP APPOINTMENT</span>
+          </div>
+
+          <div class="exp-main">
+            <div class="exp-title-row">
+              <h3 class="headline-sm">Full Stack Developer Intern</h3>
+              <span class="exp-company label-lg">Technoguide infosoft — Anand, Gujarat</span>
+            </div>
+
+            <div class="exp-bullets">
+              <div class="bullet-item">
+                <span class="bullet-dash">—</span>
+                <p class="body-md">
+                  Developed full-stack web applications using Laravel, PHP, MySQL, JavaScript, and REST APIs, delivering
+                  scalable and efficient business solutions.
+                </p>
+              </div>
+
+              <div class="bullet-item">
+                <span class="bullet-dash">—</span>
+                <p class="body-md">
+                  Implemented Role-Based Access Control (RBAC) across 3 user roles (admin, vendor, customer) and
+                  integrated Razorpay payments, processing transactions with zero reported failures during testing.
+                </p>
+              </div>
+
+              <div class="bullet-item">
+                <span class="bullet-dash">—</span>
+                <p class="body-md">
+                  Optimized database schemas and SQL queries, reducing average query response time by ~30% and improving
+                  overall page load speed.
+                </p>
+              </div>
+            </div>
+
+            <div class="exp-tag-row">
+              <span class="editorial-chip">Laravel</span>
+              <span class="editorial-chip">PHP</span>
+              <span class="editorial-chip">MySQL</span>
+              <span class="editorial-chip">JavaScript</span>
+              <span class="editorial-chip">Razorpay</span>
+              <span class="editorial-chip">RBAC Security</span>
+              <span class="editorial-chip">Query Profiling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stark-divider"></div>
+
+    <!-- ========== TECHNICAL CAPABILITIES SECTION ========== -->
+    <section class="section-spacing" id="capabilities" aria-labelledby="cap-title">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-num">03 / 05</span>
+          <h2 class="headline-md" id="cap-title">Capabilities</h2>
+          <p class="body-md text-secondary">
+            A comprehensive index of languages, backend platforms, database engines, and software architecture
+            disciplines.
+          </p>
+        </div>
+
+        <div class="capabilities-table">
+
+          <div class="cap-row">
+            <div class="cap-col-title">
+              <span class="label-lg">LANGUAGES</span>
+            </div>
+            <div class="cap-col-content">
+              <p class="body-md">JavaScript (ES6+), TypeScript, PHP, Python, SQL, HTML5, CSS3</p>
+            </div>
+          </div>
+
+          <div class="cap-row">
+            <div class="cap-col-title">
+              <span class="label-lg">FRONTEND</span>
+            </div>
+            <div class="cap-col-content">
+              <p class="body-md">React.js, Next.js, Tailwind CSS, AJAX, Responsive Architecture, UI Systems</p>
+            </div>
+          </div>
+
+          <div class="cap-row">
+            <div class="cap-col-title">
+              <span class="label-lg">BACKEND</span>
+            </div>
+            <div class="cap-col-content">
+              <p class="body-md">Laravel, Node.js, Express.js, REST API Design, JWT Authentication</p>
+            </div>
+          </div>
+
+          <div class="cap-row">
+            <div class="cap-col-title">
+              <span class="label-lg">DATABASES</span>
+            </div>
+            <div class="cap-col-content">
+              <p class="body-md">MySQL, PostgreSQL, MongoDB, Schema Design, Relational Modeling, Query Optimization</p>
+            </div>
+          </div>
+
+          <div class="cap-row">
+            <div class="cap-col-title">
+              <span class="label-lg">TOOLS &amp; DEVOPS</span>
+            </div>
+            <div class="cap-col-content">
+              <p class="body-md">Git, GitHub, VS Code, Postman, Swagger Documentation, Vercel, Render</p>
+            </div>
+          </div>
+
+          <div class="cap-row">
+            <div class="cap-col-title">
+              <span class="label-lg">CONCEPTS</span>
+            </div>
+            <div class="cap-col-content">
+              <p class="body-md">MVC Architecture, Object-Oriented Programming (OOP), CRUD Operations, Role-Based Access
+                Control (RBAC), Payment Gateway Integration, SDLC</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="stark-divider"></div>
+
+    <!-- ========== ABOUT & EDUCATION SECTION ========== -->
+    <section class="section-spacing" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-num">04 / 05</span>
+          <h2 class="headline-md" id="about-title">Biography &amp; Academic Credentials</h2>
+        </div>
+
+        <div class="about-editorial-grid">
+          <div class="about-bio-column">
+            <p class="body-lg">
+              I am a full-stack developer dedicated to building reliable digital infrastructure with clean,
+              considered interfaces.
+            </p>
+            <p class="body-md">
+              Experienced across the complete software delivery lifecycle, with demonstrable proficiency in designing
+              normalized database schemas, building secure API services with authentication, and implementing
+              transactional gateways.
+            </p>
+            <p class="body-md">
+              Located in Nadiad,India. Operating across MERN, Laravel, and Python stacks.
+            </p>
+
+            <div class="bio-spec-list">
+              <div class="bio-spec-item">
+                <span class="label-sm">RESIDENCE</span>
+                <span class="body-sm">Nadiad, Gujarat 387002, India</span>
+              </div>
+              <div class="bio-spec-item">
+                <span class="label-sm">TELEPHONE</span>
+                <a href="tel:+919313404843" class="button-link">+91 9313404843</a>
+              </div>
+              <div class="bio-spec-item">
+                <span class="label-sm">ELECTRONIC MAIL</span>
+                <a href="mailto:sujaldev090@gmail.com" class="button-link">sujaldev090@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-education-column">
+            <div class="education-card card">
+              <span class="label-sm text-secondary">POSTGRADUATE DEGREE</span>
+              <h3 class="headline-sm">Master of Computer Applications (MCA)</h3>
+              <p class="body-sm text-secondary">Institute of Science &amp; Technology for Advanced Studies &amp;
+                Research (CVM), Anand</p>
+
+
+
+              <p class="body-sm">
+                Advanced studies in software design patterns, distributed database management, object-oriented systems,
+                and web architecture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="stark-divider"></div>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="section-spacing" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header-editorial">
+          <span class="section-num">05 / 05</span>
+          <h2 class="headline-md" id="contact-title">Inquiries &amp; Transmissions</h2>
+          <p class="body-md text-secondary">
+            Available for full-time full-stack developer roles, enterprise software contracts, and select technical
+            collaborations.
+          </p>
+        </div>
+
+        <div class="contact-editorial-layout">
+          <div class="contact-sidebar">
+            <div class="contact-channel-block">
+              <span class="label-sm">DIRECT CORRESPONDENCE</span>
+              <a href="mailto:sujaldev090@gmail.com" class="headline-sm direct-contact-link">sujaldev090@gmail.com</a>
+            </div>
+
+            <div class="contact-network-links">
+              <div class="network-item">
+                <span class="label-sm">NETWORK</span>
+                <a href="https://www.linkedin.com/in/sujal-parmar07/" target="_blank" rel="noopener noreferrer"
+                  class="button-link">LinkedIn Profile →</a>
+              </div>
+              <div class="network-item">
+                <span class="label-sm">CODE</span>
+                <a href="https://github.com/sujal-dev07" target="_blank" rel="noopener noreferrer"
+                  class="button-link">GitHub Repositories →</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="contact-form-block">
+            <form class="editorial-form" id="contactForm" method="POST" action="https://api.web3forms.com/submit"
+              novalidate>
+              <input type="hidden" name="access_key" value="283ff434-6e06-4dae-8fb6-83a58dbd46b0">
+              <input type="hidden" name="subject"
+                value="Transmission via Collection Industries Portfolio — Sujal Parmar">
+              <input type="checkbox" name="botcheck" style="display:none;" tabindex="-1" aria-hidden="true">
+
+              <div class="form-row-duo">
+                <div class="input-group">
+                  <label for="form-name" class="label-sm">YOUR NAME *</label>
+                  <input type="text" id="form-name" name="name" class="input" placeholder="Name" required
+                    autocomplete="name">
+                </div>
+
+                <div class="input-group">
+                  <label for="form-email" class="label-sm">EMAIL ADDRESS *</label>
+                  <input type="email" id="form-email" name="email" class="input" placeholder="email@address.com"
+                    required autocomplete="email">
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="form-scope" class="label-sm">PROJECT TYPE / OPPORTUNITY</label>
+                <input type="text" id="form-scope" name="scope" class="input"
+                  placeholder="e.g. Full Stack Role / Web Architecture">
+              </div>
+
+              <div class="input-group">
+                <label for="form-message" class="label-sm">TRANSMISSION BRIEF *</label>
+                <textarea id="form-message" name="message" class="input textarea" rows="5"
+                  placeholder="State your requirements, timeline, and scope..." required></textarea>
+              </div>
+
+              <div class="form-action-row">
+                <button type="submit" class="button-primary" id="submitBtn">
+                  <span class="btn-text">Transmit Inquiry</span>
+                </button>
+                <div id="formFeedback" class="form-feedback label-md" role="alert" aria-live="polite"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER (Collection Industries Colophon) ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="headline-sm">SUJAL PARMAR</span>
+          <p class="body-sm text-secondary">Collection Industries Design System Implementation · Full Stack Developer.
+          </p>
+        </div>
+
+        <div class="footer-col footer-links-col">
+          <div class="footer-links-group">
+            <span class="label-sm">NAVIGATION</span>
+            <a href="#work" class="button-link">Work</a>
+            <a href="#experience" class="button-link">Experience</a>
+            <a href="#capabilities" class="button-link">Capabilities</a>
+            <a href="#about" class="button-link">About</a>
+            <a href="#contact" class="button-link">Contact</a>
+          </div>
+
+          <div class="footer-links-group">
+            <span class="label-sm">CHANNELS</span>
+            <a href="https://github.com/sujal-dev07" target="_blank" rel="noopener noreferrer"
+              class="button-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/sujal-parmar07/" target="_blank" rel="noopener noreferrer"
+              class="button-link">LinkedIn</a>
+            <a href="mailto:sujaldev090@gmail.com" class="button-link">Email</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <span class="label-sm text-secondary">&copy; <span id="currentYear"></span> SUJAL PARMAR · ALL RIGHTS
+          RESERVED</span>
+        <a href="#hero" class="button-link">TOP ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
